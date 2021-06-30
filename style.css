@@ -1,0 +1,63 @@
+* {
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #ffadad86;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.facebook {
+    width: 1em;
+    height: 1em;
+  }
+
+  .facebook path,
+  .facebook polygon,
+  .facebook rect {
+    fill: #4691f6;
+  }
+
+  .facebook circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+  /* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.icon_facebook {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 969px;
+    width: 100%;
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+main a {
+    color: #4691f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #ff70db;
+    transition: 1s;
+}

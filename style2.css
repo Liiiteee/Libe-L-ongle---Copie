@@ -1,0 +1,120 @@
+* {
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.facebook {
+    width: 1em;
+    height: 1em;
+  }
+
+  .facebook path,
+  .facebook polygon,
+  .facebook rect {
+    fill: #4691f6;
+  }
+
+  .facebook circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+  /* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.icon_facebook {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height:0 auto;
+    width: 0 auto;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: #ffadad86;
+}
+
+#logo a {
+    color: #4691f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#logo a:hover {
+    color: #ff70db;
+    transition: 2s;
+}
+
+#rubriques {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px #ffffff;
+    /* background-color: #ff000050; */
+}
+
+#rubriques ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+}
+
+#rubriques li a {
+    color: #000000;
+    background-color: #ffadad86;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 150px;
+    border: 2px solid #ffffff86;
+    border-radius: 20px;
+}
+
+#rubriques a:hover {
+    color: #ff70db;
+    font-size: 20px;
+    transition: 0.1s;
+}
+
+.contenair {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 769px;
+    width: 100%;
+    background-color: #ffadadcc;
+}
+
+/* .left {
+    height: 100%;
+    width: 50%;
+    border-right: 1px solid #000000;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #4691f6;
+} */
