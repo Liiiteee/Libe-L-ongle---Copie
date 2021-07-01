@@ -110,12 +110,25 @@ main {
 
 
 @media (max-width: 600px) {
-    .logo {
-        box-shadow: none;
+    main {
+        height: 623px;
+        width: 100%;
     }
 
+    #rubriques {
+        height: 623px;
+    }    
+
     #rubriques ul {
-      flex-direction: column;
-      overflow-y: scroll;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    #rubriques li {
+        display: flex;
+        justify-content: center;
+        min-width: 90%;
+        padding: 30px;
+        margin: 5px;
     }
   }
