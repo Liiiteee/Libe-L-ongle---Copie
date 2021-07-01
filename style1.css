@@ -9,6 +9,11 @@ body {
     width: 100%;
 }
 
+a {
+    color: #000000cc;
+    text-decoration: none;
+}
+
 /* -----
 SVG Icons - svgicons.sparkk.fr
 ----- */
@@ -53,6 +58,7 @@ header {
     font-size: 50px;
     letter-spacing: 10px;
     text-shadow: 1px 1px 1px #000000;
+    box-shadow: 0px 0px 5px 0px #ff0000;
     background-color: #ffadad86;
 }
 
@@ -70,58 +76,46 @@ header {
 main {
     height: 769px;
     width: 100%;
-    background-color: #ffadadcc;
 }
 
 #rubriques {
-    /* display: none; */
     height: 100%;
     width: 100%;
     box-shadow: 0px 0px 5px 0px #ffffff;
-    /* background-color: #ff000050; */
+    background-color: #ffadadcc;
 }
 
 #rubriques ul {
-    /* display: none; */
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-evenly;
     height: 100%;
     list-style-type: none;
 }
 
-#rubriques li {
-    /* display: none; */
-    color: #000000;
+#rubriques li {    
     background-color: #ffadad86;
     font-weight: bold;
-    text-decoration: none;
     padding: 150px;
-    border: 2px solid #ffffff86;
-    border-radius: 20px;
+    border: 2px solid #ffffff8f;
+    border-radius: 30px;
 }
 
 #rubriques a:hover {
-    /* display: none; */
     color: #ff70db;
-    font-size: 20px;
-    transition: 0.1s;
+    font-size: 25px;
+    transition: 1s;
 }
 
 
 @media (max-width: 600px) {
+    .logo {
+        box-shadow: none;
+    }
+
     #rubriques ul {
       flex-direction: column;
       overflow-y: scroll;
     }
   }
-
-/* .left {
-    height: 100%;
-    width: 50%;
-    border-right: 1px solid #000000;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    background-color: #4691f6;
-} */
