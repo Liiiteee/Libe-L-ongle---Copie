@@ -38,17 +38,15 @@ SVG Icons - svgicons.sparkk.fr
     margin-right: 10px;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    height:0 auto;
-    width: 0 auto;
+header {
+    height: 200px;
+    width: 100%;
 }
 
-#logo {
+.logo {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 200px;
     width: 100%;
     font-family: 'Great Vibes', cursive;
@@ -58,18 +56,25 @@ main {
     background-color: #ffadad86;
 }
 
-#logo a {
+.logo a {
     color: #4691f6;
     font-weight: bold;
     text-decoration: none;
 }
 
-#logo a:hover {
+.logo a:hover {
     color: #ff70db;
     transition: 2s;
 }
 
+main {
+    height: 769px;
+    width: 100%;
+    background-color: #ffadadcc;
+}
+
 #rubriques {
+    /* display: none; */
     height: 100%;
     width: 100%;
     box-shadow: 0px 0px 5px 0px #ffffff;
@@ -77,6 +82,7 @@ main {
 }
 
 #rubriques ul {
+    /* display: none; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -85,7 +91,8 @@ main {
     list-style-type: none;
 }
 
-#rubriques li a {
+#rubriques li {
+    /* display: none; */
     color: #000000;
     background-color: #ffadad86;
     font-weight: bold;
@@ -96,19 +103,19 @@ main {
 }
 
 #rubriques a:hover {
+    /* display: none; */
     color: #ff70db;
     font-size: 20px;
     transition: 0.1s;
 }
 
-.contenair {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 769px;
-    width: 100%;
-    background-color: #ffadadcc;
-}
+
+@media (max-width: 600px) {
+    #rubriques ul {
+      flex-direction: column;
+      overflow-y: scroll;
+    }
+  }
 
 /* .left {
     height: 100%;
